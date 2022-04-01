@@ -1,2 +1,44 @@
+/* 属性选择器 */
+input[type=text] {
+  background-color: #FF6B6B;
+}
+
+input[type=password] {
+  background-color: #FFD93D;
+}
+
+/* 以text开头 */
+p[class^=text] {
+  background-color: #6BCB77;
+}
+
+/* 以detail结尾 */
+p[class$=detail] {
+  background-color: #4D96FF;
+}
+
+/* 包含ewdin */
+p[class*=edwin] {
+  background-color: #8D8DAA;
+}
+
+/* nth-of-child */
+.container p:first-child{
+  background-color: #FFA8A8;
+}
+
+/* 2, even, odd  */
+.container p:nth-child(2){
+  background-color: #FFF7BC;
+}
+
+.container p:last-child{
+  background-color: #CE49BF;
+}
+
+/* nth-of-type */
+.container2 p:nth-of-type(2){
+  background-color: #FFF7BC;
+}
 
 
