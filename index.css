@@ -1,2 +1,7 @@
-
-
+div {
+  background-color: pink;
+  width: 150px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
