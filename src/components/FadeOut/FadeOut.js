@@ -1,15 +1,15 @@
 import React from "react";
 import { Button, Row, Col } from "antd";
-const FadeIn = () => {
+const FadeOut = () => {
   return (
     <Row justify="center">
       <Col>
-        <Button className="fadeInButton" type="primary" size={"large"}>
-          Fade In
+        <Button className="fadeOutButton" type="primary" size={"large"}>
+          Fade Out
         </Button>
       </Col>
     </Row>
   );
 };
 
-export default FadeIn;
+export default FadeOut;
