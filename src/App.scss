@@ -19,7 +19,13 @@
         @include common();
     }
     
-    .clear {
-        clear: both;
+    // .clear {
+    //     clear: both;
+    // }
+
+    &::after{
+        content:"";
+        display:block;
+        clear:both;
     }
 }
