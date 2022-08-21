@@ -1,1 +1,25 @@
 // @import '~antd/dist/antd.css';
+@mixin common {
+    border: 1px solid blue;
+    width: 180px;
+    height: 100px;
+}
+
+.container {
+    border: 1px solid red;
+    width: 400px;
+
+    .left {
+        float: left;
+        @include common();
+    }
+
+    .right {
+        float: right;
+        @include common();
+    }
+    
+    .clear {
+        clear: both;
+    }
+}
