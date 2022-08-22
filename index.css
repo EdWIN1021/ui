@@ -41,4 +41,14 @@ p[class*=edwin] {
   background-color: #FFF7BC;
 }
 
+/* 相邻兄弟选择器  => 只有一个兄弟*/
+.container3 div+p {
+  background-color: #4D96FF;
+}
+
+/* 兄弟选择器  => 所有兄弟*/
+.container4 div~p {
+  background-color: #FFF7BC;
+}
+
 
