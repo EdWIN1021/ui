@@ -23,20 +23,20 @@ p[class*=edwin] {
 }
 
 /* nth-of-child */
-.container p:first-child{
+/* .container p:first-child{
   background-color: #FFA8A8;
-}
+} */
 
-/* 2, even, odd  */
+/* 2, even, odd  选择 container2 下的排行第二的p元素且必须是p元素 */
 .container p:nth-child(2){
   background-color: #FFF7BC;
 }
 
-.container p:last-child{
+/* .container p:last-child{
   background-color: #CE49BF;
-}
+} */
 
-/* nth-of-type */
+/* nth-of-type => 选择 container2 下的第二个 p 元素*/
 .container2 p:nth-of-type(2){
   background-color: #FFF7BC;
 }
