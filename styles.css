@@ -1,5 +1,23 @@
-#box {
-  background-color: coral;
-  width: 200px;
-  height: 200px;
+/* 属性选择器 */
+input[type="text"] {
+  background-color: #ff6b6b;
+}
+
+input[type="password"] {
+  background-color: #ffd93d;
+}
+
+/* 以text开头 */
+p[class^="text"] {
+  background-color: #6bcb77;
+}
+
+/* 以detail结尾 */
+p[class$="detail"] {
+  background-color: #4d96ff;
+}
+
+/* 包含ewdin */
+p[class*="edwin"] {
+  background-color: #8d8daa;
 }
