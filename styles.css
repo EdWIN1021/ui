@@ -1,3 +1,7 @@
-h2 + p {
+.sibling1 + p {
+  background-color: coral;
+}
+
+.sibling2 ~ p {
   background-color: coral;
 }
