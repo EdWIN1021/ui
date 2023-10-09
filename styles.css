@@ -1,5 +1,3 @@
-#box {
-  background-color: coral;
-  width: 200px;
-  height: 200px;
+div p {
+  background-color: burlywood;
 }
